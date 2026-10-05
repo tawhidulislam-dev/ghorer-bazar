@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asstes/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asstes/css/style.css">
+    <title>Ghorer Bazar</title>
+</head>
+<body>
+
+    <header>
+      <!-- Header Nav Start -->
+        <nav class="navbar navbar-expand-lg ">
+  <div class="container">
+    <div class="logoImg">
+        <a class="navbar-brand" href="index.html">
+            <img src="https://cdn.ghorerbazar.com/company_logo/qJaKf1768887846.png" alt="">
+        </a>
+    </div>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="searchBar">
+        <form class="d-flex" role="search">
+            <input class="form-control" type="search" placeholder="Search in" aria-label="Search"/>
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1S492.1 112 412 112s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6M570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4" /></svg>
+            </span>
+            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+          </form>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 576 512">
+	<path d="M0 0h576v512H0z" fill="none" />
+	<path fill="currentColor" d="M302.8 312C334.9 271.9 408 174.6 408 120C408 53.7 354.3 0 288 0S168 53.7 168 120c0 54.6 73.1 151.9 105.2 192c7.7 9.6 22 9.6 29.6 0M416 503l144.9-58c9.1-3.6 15.1-12.5 15.1-22.3V152c0-17-17.1-28.6-32.9-22.3l-116 46.4c-.5 1.2-1 2.5-1.5 3.7c-2.9 6.8-6.1 13.7-9.6 20.6zM15.1 187.3C6 191 0 199.8 0 209.6v270.8c0 17 17.1 28.6 32.9 22.3L160 451.8V200.4c-3.5-6.9-6.7-13.8-9.6-20.6c-5.6-13.2-10.4-27.4-12.8-41.5L15 187.3zM384 255c-20.5 31.3-42.3 59.6-56.2 77c-20.5 25.6-59.1 25.6-79.6 0c-13.9-17.4-35.7-45.7-56.2-77v194.4l192 54.9z" /></svg>
+          </span>
+            Track Order</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 2048 2048">
+	<path d="M0 0h2048v2048H0z" fill="none" />
+	<path fill="currentColor" d="M1330 1203q136 47 245 131t186 196t118 243t41 275h-128q0-164-58-304t-162-244t-243-161t-305-59q-107 0-206 27t-184 76t-155 119t-119 155t-77 185t-27 206H128q0-144 42-275t119-242t186-194t245-133q-78-42-140-102T475 969t-67-157t-24-172q0-133 50-249t137-204T774 50t250-50q133 0 249 50t204 137t137 203t50 250q0 88-23 171t-67 156t-105 133t-139 103M512 640q0 106 40 199t110 162t163 110t199 41t199-40t162-110t110-163t41-199t-40-199t-110-162t-163-110t-199-41t-199 40t-162 110t-110 163t-41 199" /></svg>
+        </span>
+            Sign In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 48 48">
+	<path d="M0 0h48v48H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M15 7C8.925 7 4 11.925 4 18c0 11 13 21 20 23.326C31 39 44 29 44 18c0-6.075-4.925-11-11-11c-3.72 0-7.01 1.847-9 4.674A10.99 10.99 0 0 0 15 7m3 17h12m-6-6v12" /></svg>
+          </span>
+            Wishlist</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+	    <path d="M0 0h24v24H0z" fill="none" /><g fill="none">
+		<path fill="currentColor" d="M3 2.25a.75.75 0 0 0 0 1.5zM5 3l.748-.058A.75.75 0 0 0 5 2.25zm16 3l.745.083A.75.75 0 0 0 21 5.25zM5.23 6l-.747.058zm13.109 9.119l.053.748zm-10.355.74l-.053-.749zM3 3.75h2v-1.5H3zm5.037 12.856l10.355-.74l-.107-1.495l-10.354.74zm12.892-3.179l.816-7.344l-1.49-.166l-.816 7.345zM4.252 3.057l.231 3l1.496-.115l-.231-3zm.231 3l.617 8.017l1.495-.115l-.616-8.017zM21 5.25H5.23v1.5H21zm-2.608 10.617a2.75 2.75 0 0 0 2.537-2.44l-1.49-.165a1.25 1.25 0 0 1-1.154 1.109zM7.931 15.11a1.25 1.25 0 0 1-1.336-1.15l-1.495.114a2.75 2.75 0 0 0 2.937 2.532z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 9.5v3M11.5 11h3" />
+		<path stroke="currentColor" stroke-linejoin="round" stroke-width="2.25" d="M17.5 20.5h.01v.01h-.01zm-9 0h.01v.01H8.5z" /></g></svg>
+          </span>
+            Cart</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="27px" height="27px" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" d="M3 5h18v2H3zm0 6h13v2H3zm0 6h8v2H3z" /></svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 48 48">
+	<path d="M0 0h48v48H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M15 7C8.925 7 4 11.925 4 18c0 11 13 21 20 23.326C31 39 44 29 44 18c0-6.075-4.925-11-11-11c-3.72 0-7.01 1.847-9 4.674A10.99 10.99 0 0 0 15 7m3 17h12m-6-6v12" /></svg>
+                </span>
+                Wishlist</a></li>
+            <li><a class="dropdown-item" href="#">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px " height="24px   " viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" d="M20 3H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h3v2c0 .36.19.69.51.87c.15.09.32.13.49.13s.36-.05.51-.14L13.27 19h6.72c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2Zm-7 13h-2v-2h2zm1.47-4.03c-.42.42-.92.72-1.47.88v.14h-2v-1c0-.55.45-1 1-1a1.499 1.499 0 0 0 1.06-2.56c-.57-.57-1.55-.57-2.12 0c-.28.28-.44.66-.44 1.06h-2c0-.93.36-1.81 1.03-2.47c1.32-1.32 3.63-1.32 4.95 0c.66.66 1.03 1.54 1.03 2.47s-.36 1.81-1.03 2.47Z" /></svg>
+                </span>
+                Faqs</a></li>
+            <li><a class="dropdown-item" href="#">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1m-8 2.999c1.648 0 3 1.351 3 3A3.01 3.01 0 0 1 13 11c-1.647 0-3-1.353-3-3.001c0-1.649 1.353-3 3-3M19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5z" /></svg>
+                </span>
+                About Us</a></li>
+            <li><a class="dropdown-item" href="#">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 16 16">
+	<path d="M0 0h16v16H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+		<path d="m1.75 1.75c0 8.5 4 12.5 12.5 12.5v-4l-3.5-1-1 1.5c-2 0-4.5-2.5-4.5-4.5l1.5-1-1-3.5z" />
+		<path d="m9.75 1.75c2.5 0 4.5 2 4.5 4.5m-4.5-2c1 0 2 1 2 2" /></g></svg>
+                </span>
+                Coll Us</a></li>
+            <li><a class="dropdown-item" href="#">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none">
+		<g clip-path="url(#SVGXv8lpc2Y)">
+			<path fill="currentColor" fill-rule="evenodd" d="M17.415 14.382c-.298-.149-1.759-.867-2.031-.967s-.47-.148-.669.15c-.198.297-.767.966-.94 1.164c-.174.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.019-.458.13-.606c.134-.133.297-.347.446-.52s.198-.298.297-.497c.1-.198.05-.371-.025-.52c-.074-.149-.668-1.612-.916-2.207c-.241-.579-.486-.5-.668-.51c-.174-.008-.372-.01-.57-.01s-.52.074-.792.372c-.273.297-1.04 1.016-1.04 2.479c0 1.462 1.064 2.875 1.213 3.074s2.095 3.2 5.076 4.487c.71.306 1.263.489 1.694.625c.712.227 1.36.195 1.872.118c.57-.085 1.758-.719 2.006-1.413s.247-1.289.173-1.413s-.272-.198-.57-.347m-5.422 7.403h-.004a9.87 9.87 0 0 1-5.032-1.378l-.36-.214l-3.742.982l.999-3.648l-.235-.374a9.86 9.86 0 0 1-1.511-5.26c.002-5.45 4.436-9.884 9.889-9.884a9.8 9.8 0 0 1 6.988 2.899a9.82 9.82 0 0 1 2.892 6.992c-.002 5.45-4.436 9.885-9.884 9.885m8.412-18.297A11.82 11.82 0 0 0 11.992 0C5.438 0 .102 5.335.1 11.892a11.86 11.86 0 0 0 1.587 5.945L0 24l6.304-1.654a11.9 11.9 0 0 0 5.684 1.448h.005c6.554 0 11.89-5.335 11.892-11.893a11.82 11.82 0 0 0-3.48-8.413" clip-rule="evenodd" />
+        </g><defs><clipPath id="SVGXv8lpc2Y"><path fill="#fff" d="M0 0h24v24H0z" /></clipPath></defs></g></svg></span>
+                WhatsApp</a></li>
+          </ul>
+      </ul>
+      
+    </div>
+  </div>
+        </nav>
+      <!-- Header Nav End -->
+    </header>
+      <!-- Nav Section Start -->
+    <nav class="navbar navbar-expand-lg navbar bg-dark border-bottom border-body" data-bs-theme="dark" ">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Offer Zone</a>
+        </li>
+        <li>
+            <a class="nav-link active" aria-current="page" href="#">Honey ▾</a>
+            <div class="submenuBar">
+                <ul>
+                    <li><a href="#">Sundarban Honey</a></li>
+                    <li><a href="#">Black Seed Honey</a></li>
+                    <li><a href="#">Lychee Flower Honey</a></li>
+                    <li><a href="#">African Organic Honey</a></li>
+                    <li><a href="#">Sidr Honey</a></li>
+                    <li><a href="#">Honeycomb</a></li>
+                    <li><a href="#">Sachet Box</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a class="nav-link active" aria-current="page" href="#">Oil & Ghee</a></li>
+        <li>
+          <a class="nav-link active" aria-current="page" href="#">Dates ▾</a>
+          <div class="submenuBar">
+            <ul>
+              <li><a href="#">Safawi/kalmi</a></li>
+              <li><a href="#">Medjool</a></li>
+              <li><a href="#">Sukkari</a></li>
+              <li><a href="#">Ajwa</a></li>
+              <li><a href="#">Mabroom</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link active" aria-current="page" href="#">Spices ▾</a>
+          <div class="submenuBar">
+            <ul>
+              <li><a href="#">Whole Spices</a></li>
+              <li><a href="#">Basic Spices</a></li>
+              <li><a href="#">Mixed Spices</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link active" aria-current="page" href="#">Nuts & Seeds ▾</a>
+          <div class="submenuBar">
+            <ul>
+              <li><a href="#">Nuts</a></li>
+              <li><a href="#">Seeds</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link active" aria-current="page" href="#">Beverage ▾</a>
+          <div class="submenuBar">
+            <ul>
+              <li><a href="#">Tea</a></li>
+              <li><a href="#">Coffee</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a class="nav-link active" aria-current="page" href="#">Rice</a></li>
+        <li>
+          <a class="nav-link active" aria-current="page" href="#">Flours & Lentils ▾</a>
+          <div class="submenuBar">
+            <ul>
+              <li><a href="#">Flours</a></li>
+              <li><a href="#">Lentils</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a class="nav-link active" aria-current="page" href="#">Certified</a></li>
+        <li><a class="nav-link active" aria-current="page" href="#">Pickle</a></li>
+        <li><a class="nav-link active" aria-current="page" href="#">Tabaya</a></li>
+      </ul>
+    </div>
+  </div>
+    </nav>
+      <!-- Nav Section End -->
+    <main>
+      <!-- Hero Scetion Start -->
+      <section id="hero-section">
+        <div class="container">
+          <div class="hero-sectionLeft ">
+            <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.ghorerbazar.com/banner/I8mKy1785823826-light-1000x400.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.ghorerbazar.com/banner/wooRQ1787040457-light-2000x800.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.ghorerbazar.com/banner/kdvcy1786290971-light-1000x400.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+          </div>
+          <div class="hero-sectionRight ">
+            <img src="https://cdn.ghorerbazar.com/banner/ZwGbr1787805653-500x410.png" alt="">
+          </div>
+        </div>
+      </section >
+      <!-- Hero Scetion End -->
+      <!-- Featured Section Start -->
+      <section id="featured">
+        <div class="container">
+          <h2 class="featured-headding">Featured Categories</h2>
+          <div id="" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.ghorerbazar.com/category_images/HJOrw1774766749.png" class="d-block w-100" alt="...">
+      <h4>Organic</h4>
+    </div>
+    <div class="carousel-item active">
+      <img src="https://cdn.ghorerbazar.com/category_images/HJOrw1774766749.png" class="d-block w-100" alt="...">
+      <h4>Organic</h4>
+    </div>
+    <div class="carousel-item ">
+      <img src="https://cdn.ghorerbazar.com/category_images/HJOrw1774766749.png" class="d-block w-100" alt="...">
+      <h4>Organic</h4>
+    </div>
+    <div class="carousel-item ">
+      <img src="https://cdn.ghorerbazar.com/category_images/HJOrw1774766749.png" class="d-block w-100" alt="...">
+      <h4>Organic</h4>
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </div>
+      </section>
+      <!-- Featured Section End -->
+      <!-- Products Section Start -->
+        <section id="products">
+          <div class="container">
+            <h2 class="selling-headding">Top Selling Products</h2>
+            <div class="card-products">
+              <div class="products-section-left">
+                  <img src="https://cdn.ghorerbazar.com/productImages/KWSqQ1785577173-light-1000x1000.jpg" alt="">
+                <div class="p-headding ">
+                  <h3>Sundarban Honey 1kg</h3>
+                  <h4>৳2,500</h4>
+                  <a class="btn btn-outline-success" href="#">Add To Card</a>
+                  <a class="btn btn-primary" href="#">Buy now</a>
+                </div>
+              </div>
+              
+              <div class="products-section-Right">
+                <img src="https://cdn.ghorerbazar.com/productImages/pZqip1790829043-light-1000x1000.jpg" alt="">
+                <div class="p-headding ">
+                  <h3>Gawa Ghee 1kg</h3>
+                  <div class="pcmenu">
+                    <h4 class="price">৳1,890</h4>
+                    <h4 class="pricecut ">৳1,990</h4>
+                  </div>
+                  <a class="btn btn-outline-success" href="#">Add To Card</a>
+                  <a class="btn btn-primary" href="#">Buy now</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-products secend">
+              <div class="products-section-left">
+                  <img src="https://cdn.ghorerbazar.com/productImages/KWSqQ1785577173-light-1000x1000.jpg" alt="">
+                <div class="p-headding ">
+                  <h3>Sundarban Honey 1kg</h3>
+                  <h4>৳2,500</h4>
+                  <a class="btn btn-outline-success" href="#">Add To Card</a>
+                  <a class="btn btn-primary" href="#">Buy now</a>
+                </div>
+              </div>
+              
+              <div class="products-section-Right">
+                <img src="https://cdn.ghorerbazar.com/productImages/pZqip1790829043-light-1000x1000.jpg" alt="">
+                <div class="p-headding ">
+                  <h3>Gawa Ghee 1kg</h3>
+                  <div class="pcmenu">
+                    <h4 class="price">৳1,890</h4>
+                    <h4 class="pricecut ">৳1,990</h4>
+                  </div>
+                  <a class="btn btn-outline-success" href="#">Add To Card</a>
+                  <a class="btn btn-primary" href="#">Buy now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- Products Section End -->
+      <!-- Headdingimg Section Start -->
+       <section id="headdingimg">
+        <div class="container">
+          <img src="https://cdn.ghorerbazar.com/banner/KQlqd1788006502-4000x1039.jpeg" alt="">
+        </div>
+       </section>
+      <!-- Headdingimg Section End -->
+      <!-- Review Section Start -->
+       <section id="review">
+        <div class="container">
+          <div class="card">
+            <p>আমি একজন ঘরের বাজারের নিয়মিত কাস্টমার। আমি শুধু ঘরের বাজার থেকে এই যে প্রোডাক্ট আনি এমন নয়। আমি অনেক জায়গা থেকে এই প্রোডাক্ট এনেছি। তবে আমার মতে এসব পেজ থেকে ঘরের বাজার সেরা।</p>
+            <span>⭐⭐⭐⭐⭐⭐</span>
+            <img src="./asstes/img/review.JPG" alt="">
+          </div>
+          <div class="card card2">
+            <p>I don’t like ghee, but my father really loves it. So I bought some ghee for him. He said this ghee is the best he has ever had</p>
+            <span>⭐⭐⭐⭐⭐⭐</span>
+            <img src="./asstes/img/review.JPG" alt="">
+          </div>
+          <div class="card card3">
+            <p>আমি একজন ঘরের বাজারের নিয়মিত কাস্টমার। আমি শুধু ঘরের বাজার থেকে এই যে প্রোডাক্ট আনি এমন নয়। আমি অনেক জায়গা থেকে এই প্রোডাক্ট এনেছি। তবে আমার মতে এসব পেজ থেকে ঘরের বাজার সেরা।</p>
+            <span>⭐⭐⭐⭐⭐⭐</span>
+            <img src="./asstes/img/review.JPG" alt="">
+          </div>
+        </div>
+       </section>
+      <!-- Review Section End -->
+        
+    </main>
+    <footer>
+      <!-- Information Section Start -->
+      <section id="information">
+        <div class="container">
+          <div class="logo-ifr col-4">
+            <img src="https://cdn.ghorerbazar.com/company_logo/qJaKf1768887846.png" alt="">
+            <p class="logo-ifr-text">
+              
+              Ghorer Bazar is an e-commerce platform dedicated to providing safe and reliable food to every home.</p>
+            <p>
+              <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+	<path d="M0 0h512v512H0z" fill="none" />
+	<path fill="currentColor" d="M253.924 127.592a64 64 0 1 0 64 64a64.073 64.073 0 0 0-64-64m0 96a32 32 0 1 1 32-32a32.037 32.037 0 0 1-32 32" />
+	<path fill="currentColor" d="M376.906 68.515A173.922 173.922 0 0 0 108.2 286.426l120.907 185.613a29.62 29.62 0 0 0 49.635 0l120.911-185.613a173.92 173.92 0 0 0-22.747-217.911m-4.065 200.444l-118.916 182.55l-118.917-182.55c-36.4-55.879-28.593-130.659 18.563-177.817a141.92 141.92 0 0 1 200.708 0c47.156 47.158 54.962 121.938 18.562 177.817" />
+</svg>
+</span>
+              Rampura, Dhaka, Bangladesh</p>
+            <p>
+              <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48">
+	<path d="M0 0h48v48H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M19.308 12.467a24 24 0 0 1-.881-4.384C18.27 6.602 16.977 5.5 15.488 5.5H8.58c-1.777 0-3.145 1.535-2.989 3.304c1.575 17.829 15.777 32.03 33.606 33.606c1.77.156 3.304-1.207 3.304-2.984v-6.16c0-2.248-1.102-3.536-2.583-3.693a24 24 0 0 1-4.384-.88a4.9 4.9 0 0 0-4.87 1.243l-2.957 2.957a31.27 31.27 0 0 1-12.599-12.599l2.957-2.957a4.9 4.9 0 0 0 1.244-4.87m4.053 24.77l4.344-4.344m-16.943-8.255l4.344-4.344" /></svg></span>
+              +8809642922922</p>
+            <p>
+              <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+	<path d="M0 0h16v16H0z" fill="none" />
+	<path fill="currentColor" d="M15 2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zm0 1.707l-6.285 6.295a1 1 0 0 1-1.419.002L1 3.707v8.585l3.146-3.146a.5.5 0 1 1 .708.708L1.706 13h12.587l-3.147-3.146a.5.5 0 0 1 .708-.708L15 12.293zM14.292 3H1.707l6.298 6.298z" /></svg></span>
+              contact@ghorerbazar.com</p>
+          </div>
+          <div class="information-title col-8">
+            <div class="inf">
+              <h3>Information</h3>
+              <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Company Information</a></li>
+                <li><a href="#">Ghorer Bazar Stories</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="shop">
+              <h3>Shop By</h3>
+              <ul>
+                <li><a href="#">Oil & Ghee</a></li>
+                <li><a href="#">Honey</a></li>
+                <li><a href="#">Dates</a></li>
+                <li><a href="#">Spices</a></li>
+                <li><a href="#">Nuts & Seeds</a></li>
+                <li><a href="#">Beverage</a></li>
+                <li><a href="#">Functional Foods</a></li>
+              </ul>
+            </div>
+            <div class="support">
+              <h3>Support</h3>
+              <ul>
+                <li><a href="#">Support Center</a></li>
+                <li><a href="#">How to Order</a></li>
+                <li><a href="#">Order Tracking</a></li>
+                <li><a href="#">Payment</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="consumer">
+              <h3>Consumer Policy</h3>
+              <ul>
+                <li><a href="#">Happy Return</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li><a href="#">Exchange</a></li>
+                <li><a href="#">Cancellation</a></li>
+                <li><a href="#">Pre-Order</a></li>
+                <li><a href="#">Extra Discount</a></li>
+              </ul>
+            </div> 
+
+          </div>
+        </div>
+      </section>
+      <!-- Information Section End -->
+      <!-- icon Section Start -->
+      <section id="icon">
+        <div class="container">
+          <div class="icon-seciton">
+            <div class="social-icon">
+              <a href="#">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg></span>
+              </a>
+              <a href="#">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+              </svg></span>
+              </a>
+              <a href="#">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg></span>
+              </a>
+            </div>
+            <h4>Download App on Mobile :</h4>
+            <div class="app-stor">
+              <a href="#"><img src="https://ghorerbazar.com/assets/images/google-play.svg" alt=""></a>
+              <a href="#"><img src="https://ghorerbazar.com/assets/images/app-store.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- icon Section End -->
+      <!-- Copyright Section Start -->
+      <section id="copyright">
+        <div class="container">
+          <p class="col-6">Copyright © 2026 GhorerBazar</p>
+          <img class="col-6" src="https://cdn.ghorerbazar.com/company_logo/faysy1756641916.png" alt="">
+        </div>
+      </section>
+      <!-- Copyright Section End -->
+    </footer>
+
+
+    <script src="./asstes/js/bootstrap.bundle.min.js"></script>
+    <script src="./asstes/js/app.js"></script>
+    
+</body>
+</html>
